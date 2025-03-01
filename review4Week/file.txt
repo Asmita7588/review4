@@ -1,0 +1,404 @@
+ public static void CheckFileSize()
+ {
+     string path = @"C:\Users\asmita1\source\repos\Bridgelabz_practice_program\review4\review4\file.txt";
+
+     long maxFileSize = 2 *2;
+     File.Create(path);
+     if (File.Exists(path))
+     { 
+        
+
+         FileInfo fileInfo = new FileInfo(path);
+         long fileSize = fileInfo.Length;
+
+
+         if (fileSize > maxFileSize)
+         {
+             throw new FileSizeTooLargeException("File size too large");
+         }
+     }
+     else {
+         Console.WriteLine("File not exists");
+     }
+ } public static void CheckFileSize()
+ {
+     string path = @"C:\Users\asmita1\source\repos\Bridgelabz_practice_program\review4\review4\file.txt";
+
+     long maxFileSize = 2 *2;
+     File.Create(path);
+     if (File.Exists(path))
+     { 
+        
+
+         FileInfo fileInfo = new FileInfo(path);
+         long fileSize = fileInfo.Length;
+
+
+         if (fileSize > maxFileSize)
+         {
+             throw new FileSizeTooLargeException("File size too large");
+         }
+     }
+     else {
+         Console.WriteLine("File not exists");
+     }
+ }cC# topics
+Oops Concepts
+https://dileepsreepathi.medium.com/oops-concepts-c-e3c094bbb8cb
+Constructor Concepts
+https://www.c-sharpcorner.com/article/constructor-vs-destructor-c-sharp/
+5/2/2025
+Naming convention
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+https://dotnettutorials.net/lesson/garbage-collector/
+week 2
+data structure
+ https://www.c-sharpcorner.com/article/linked-list-implementation-in-c-sharp/
+https://www.c-sharpcorner.com/article/implementation-of-stack-and-queue-using-linked-list/
+Data structures: https://www.youtube.com/watch?v=Q5CKMaPuU94 https://www.youtube.com/watch?v=IqQ7QpmiBJ0&t=985s https://www.youtube.com/watch?v=rKlWS9XX6rY https://www.youtube.com/watch?v=iJRx3vs1v54
+Generic:
+Swap two numbers using Generic
+compare two values of different data types using generic
+find maximum and  Minimum of 3 values of different data types using generics
+menu driven calculator using generic
+https://dotnettutorials.net/lesson/generics-csharp/
+Collection
+https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/
+html - https://www.youtube.com/watch?v=BsDoLVMnmZs
+https://www.youtube.com/watch?v=DWk2mndNTHY&t=1371s
+logger - https://www.youtube.com/watch?v=xG8AOAzgcAw
+•	Lambda Expression and Linq
+a: input parameter or parameterlist
+=> lambda operator
+a/5: expression
+Priyanshu Singh A
+https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/
+https://www.programiz.com/csharp-programming/lambda-expression
+https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/
+https://www.c-sharpcorner.com/article/linq-methods/
+
+week 3 
+Testing
+https://medium.com/@gabrielkerekes/unit-testing-in-c-basics-8493d936dbff
+https://www.csharp.com/article/unit-testing-with-ms-tests-in-c-sharp/ - for theory
+exceptions – local and global type exceptions types 
+https://www.tutorialsteacher.com/csharp/csharp-exception 
+https://www.csharp.com/article/custom-exceptions-in-c-sharp/
+local - will check condition and throw an exception called local exception
+
+Data Annotation , https://www.csharp.com/article/dataannotations-in-depth/
+https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/data-annotation-attributes-in-asp-dot-net-mvc
+
+Regular expression  https://www.geeksforgeeks.org/what-is-regular-expression-in-c-sharp/
+
+Refelction and delegets -https://dotnettutorials.net/lesson/reflection-in-csharp/
+https://medium.com/@ravipatel.it/understanding-delegates-in-c-with-practical-examples-fdb253740ad7
+https://www.programiz.com/csharp-programming/reflection 
+week 4-
+Design Pattern – 
+•  DRY → Reduce code duplication using functions, classes, and reusable components.
+•  KISS → Keep the code simple and readable to improve maintainability.
+https://docs.google.com/document/d/1UWewhARyScdgFv0nyYCXYSsZAIcmGQXQHhARH6YOCBQ/edit?tab=t.0
+https://blog.stackademic.com/understanding-solid-principles-in-c-with-real-world-examples-a926b1c56571 
+File Io - https://www.guru99.com/c-sharp-file-operations.html
+File IO: https://www.youtube.com/watch?v=HKqMqFJr4SY
+Gargabe collector -https://dotnettutorials.net/lesson/garbage-collector/
+Dispose – and finalize - https://www.csharp.com/article/dispose-and-finalize-methods-in-c-sharp/
+How to add libraries and packages – from Mnage Nutget Packages 
+Library like csvHelper and newtonsoft  –  extentions 
+Synchronous and asynchronous programming  and serialize and deserilize
+
+Csv and Json - https://code-maze.com/csharp-write-json-into-a-file/ 
+Installation vedio - https://www.youtube.com/watch?v=FFp5BLoQLAA&t=2s
+1)Microsoft Sql server 2022
+2)ssms -sql server management studio 20.2
+ADO.NET-
+https://www.csharp.com/UploadFile/18fc30/understanding-the-basics-of-ado-net/
+C# topics
+Oops Concepts
+https://dileepsreepathi.medium.com/oops-concepts-c-e3c094bbb8cb
+Constructor Concepts
+https://www.c-sharpcorner.com/article/constructor-vs-destructor-c-sharp/
+5/2/2025
+Naming convention
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+https://dotnettutorials.net/lesson/garbage-collector/
+week 2
+data structure
+ https://www.c-sharpcorner.com/article/linked-list-implementation-in-c-sharp/
+https://www.c-sharpcorner.com/article/implementation-of-stack-and-queue-using-linked-list/
+Data structures: https://www.youtube.com/watch?v=Q5CKMaPuU94 https://www.youtube.com/watch?v=IqQ7QpmiBJ0&t=985s https://www.youtube.com/watch?v=rKlWS9XX6rY https://www.youtube.com/watch?v=iJRx3vs1v54
+Generic:
+Swap two numbers using Generic
+compare two values of different data types using generic
+find maximum and  Minimum of 3 values of different data types using generics
+menu driven calculator using generic
+https://dotnettutorials.net/lesson/generics-csharp/
+Collection
+https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/
+html - https://www.youtube.com/watch?v=BsDoLVMnmZs
+https://www.youtube.com/watch?v=DWk2mndNTHY&t=1371s
+logger - https://www.youtube.com/watch?v=xG8AOAzgcAw
+•	Lambda Expression and Linq
+a: input parameter or parameterlist
+=> lambda operator
+a/5: expression
+Priyanshu Singh A
+https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/
+https://www.programiz.com/csharp-programming/lambda-expression
+https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/
+https://www.c-sharpcorner.com/article/linq-methods/
+
+week 3 
+Testing
+https://medium.com/@gabrielkerekes/unit-testing-in-c-basics-8493d936dbff
+https://www.csharp.com/article/unit-testing-with-ms-tests-in-c-sharp/ - for theory
+exceptions – local and global type exceptions types 
+https://www.tutorialsteacher.com/csharp/csharp-exception 
+https://www.csharp.com/article/custom-exceptions-in-c-sharp/
+local - will check condition and throw an exception called local exception
+
+Data Annotation , https://www.csharp.com/article/dataannotations-in-depth/
+https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/data-annotation-attributes-in-asp-dot-net-mvc
+
+Regular expression  https://www.geeksforgeeks.org/what-is-regular-expression-in-c-sharp/
+
+Refelction and delegets -https://dotnettutorials.net/lesson/reflection-in-csharp/
+https://medium.com/@ravipatel.it/understanding-delegates-in-c-with-practical-examples-fdb253740ad7
+https://www.programiz.com/csharp-programming/reflection 
+week 4-
+Design Pattern – 
+•  DRY → Reduce code duplication using functions, classes, and reusable components.
+•  KISS → Keep the code simple and readable to improve maintainability.
+https://docs.google.com/document/d/1UWewhARyScdgFv0nyYCXYSsZAIcmGQXQHhARH6YOCBQ/edit?tab=t.0
+https://blog.stackademic.com/understanding-solid-principles-in-c-with-real-world-examples-a926b1c56571 
+File Io - https://www.guru99.com/c-sharp-file-operations.html
+File IO: https://www.youtube.com/watch?v=HKqMqFJr4SY
+Gargabe collector -https://dotnettutorials.net/lesson/garbage-collector/
+Dispose – and finalize - https://www.csharp.com/article/dispose-and-finalize-methods-in-c-sharp/
+How to add libraries and packages – from Mnage Nutget Packages 
+Library like csvHelper and newtonsoft  –  extentions 
+Synchronous and asynchronous programming  and serialize and deserilize
+
+Csv and Json - https://code-maze.com/csharp-write-json-into-a-file/ 
+Installation vedio - https://www.youtube.com/watch?v=FFp5BLoQLAA&t=2s
+1)Microsoft Sql server 2022
+2)ssms -sql server management studio 20.2
+ADO.NET-
+https://www.csharp.com/UploadFile/18fc30/understanding-the-basics-of-ado-net/
+VC# topics
+Oops Concepts
+https://dileepsreepathi.medium.com/oops-concepts-c-e3c094bbb8cb
+Constructor Concepts
+https://www.c-sharpcorner.com/article/constructor-vs-destructor-c-sharp/
+5/2/2025
+Naming convention
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+https://dotnettutorials.net/lesson/garbage-collector/
+week 2
+data structure
+ https://www.c-sharpcorner.com/article/linked-list-implementation-in-c-sharp/
+https://www.c-sharpcorner.com/article/implementation-of-stack-and-queue-using-linked-list/
+Data structures: https://www.youtube.com/watch?v=Q5CKMaPuU94 https://www.youtube.com/watch?v=IqQ7QpmiBJ0&t=985s https://www.youtube.com/watch?v=rKlWS9XX6rY https://www.youtube.com/watch?v=iJRx3vs1v54
+Generic:
+Swap two numbers using Generic
+compare two values of different data types using generic
+find maximum and  Minimum of 3 values of different data types using generics
+menu driven calculator using generic
+https://dotnettutorials.net/lesson/generics-csharp/
+Collection
+https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/
+html - https://www.youtube.com/watch?v=BsDoLVMnmZs
+https://www.youtube.com/watch?v=DWk2mndNTHY&t=1371s
+logger - https://www.youtube.com/watch?v=xG8AOAzgcAw
+•	Lambda Expression and Linq
+a: input parameter or parameterlist
+=> lambda operator
+a/5: expression
+Priyanshu Singh A
+https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/
+https://www.programiz.com/csharp-programming/lambda-expression
+https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/
+https://www.c-sharpcorner.com/article/linq-methods/
+
+week 3 
+Testing
+https://medium.com/@gabrielkerekes/unit-testing-in-c-basics-8493d936dbff
+https://www.csharp.com/article/unit-testing-with-ms-tests-in-c-sharp/ - for theory
+exceptions – local and global type exceptions types 
+https://www.tutorialsteacher.com/csharp/csharp-exception 
+https://www.csharp.com/article/custom-exceptions-in-c-sharp/
+local - will check condition and throw an exception called local exception
+
+Data Annotation , https://www.csharp.com/article/dataannotations-in-depth/
+https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/data-annotation-attributes-in-asp-dot-net-mvc
+
+Regular expression  https://www.geeksforgeeks.org/what-is-regular-expression-in-c-sharp/
+
+Refelction and delegets -https://dotnettutorials.net/lesson/reflection-in-csharp/
+https://medium.com/@ravipatel.it/understanding-delegates-in-c-with-practical-examples-fdb253740ad7
+https://www.programiz.com/csharp-programming/reflection 
+week 4-
+Design Pattern – 
+•  DRY → Reduce code duplication using functions, classes, and reusable components.
+•  KISS → Keep the code simple and readable to improve maintainability.
+https://docs.google.com/document/d/1UWewhARyScdgFv0nyYCXYSsZAIcmGQXQHhARH6YOCBQ/edit?tab=t.0
+https://blog.stackademic.com/understanding-solid-principles-in-c-with-real-world-examples-a926b1c56571 
+File Io - https://www.guru99.com/c-sharp-file-operations.html
+File IO: https://www.youtube.com/watch?v=HKqMqFJr4SY
+Gargabe collector -https://dotnettutorials.net/lesson/garbage-collector/
+Dispose – and finalize - https://www.csharp.com/article/dispose-and-finalize-methods-in-c-sharp/
+How to add libraries and packages – from Mnage Nutget Packages 
+Library like csvHelper and newtonsoft  –  extentions 
+Synchronous and asynchronous programming  and serialize and deserilize
+
+Csv and Json - https://code-maze.com/csharp-write-json-into-a-file/ 
+Installation vedio - https://www.youtube.com/watch?v=FFp5BLoQLAA&t=2s
+1)Microsoft Sql server 2022
+2)ssms -sql server management studio 20.2
+ADO.NET-
+https://www.csharp.com/UploadFile/18fc30/understanding-the-basics-of-ado-net/
+vC# topics
+Oops Concepts
+https://dileepsreepathi.medium.com/oops-concepts-c-e3c094bbb8cb
+Constructor Concepts
+https://www.c-sharpcorner.com/article/constructor-vs-destructor-c-sharp/
+5/2/2025
+Naming convention
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+https://dotnettutorials.net/lesson/garbage-collector/
+week 2
+data structure
+ https://www.c-sharpcorner.com/article/linked-list-implementation-in-c-sharp/
+https://www.c-sharpcorner.com/article/implementation-of-stack-and-queue-using-linked-list/
+Data structures: https://www.youtube.com/watch?v=Q5CKMaPuU94 https://www.youtube.com/watch?v=IqQ7QpmiBJ0&t=985s https://www.youtube.com/watch?v=rKlWS9XX6rY https://www.youtube.com/watch?v=iJRx3vs1v54
+Generic:
+Swap two numbers using Generic
+compare two values of different data types using generic
+find maximum and  Minimum of 3 values of different data types using generics
+menu driven calculator using generic
+https://dotnettutorials.net/lesson/generics-csharp/
+Collection
+https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/
+html - https://www.youtube.com/watch?v=BsDoLVMnmZs
+https://www.youtube.com/watch?v=DWk2mndNTHY&t=1371s
+logger - https://www.youtube.com/watch?v=xG8AOAzgcAw
+•	Lambda Expression and Linq
+a: input parameter or parameterlist
+=> lambda operator
+a/5: expression
+Priyanshu Singh A
+https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/
+https://www.programiz.com/csharp-programming/lambda-expression
+https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/
+https://www.c-sharpcorner.com/article/linq-methods/
+
+week 3 
+Testing
+https://medium.com/@gabrielkerekes/unit-testing-in-c-basics-8493d936dbff
+https://www.csharp.com/article/unit-testing-with-ms-tests-in-c-sharp/ - for theory
+exceptions – local and global type exceptions types 
+https://www.tutorialsteacher.com/csharp/csharp-exception 
+https://www.csharp.com/article/custom-exceptions-in-c-sharp/
+local - will check condition and throw an exception called local exception
+
+Data Annotation , https://www.csharp.com/article/dataannotations-in-depth/
+https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/data-annotation-attributes-in-asp-dot-net-mvc
+
+Regular expression  https://www.geeksforgeeks.org/what-is-regular-expression-in-c-sharp/
+
+Refelction and delegets -https://dotnettutorials.net/lesson/reflection-in-csharp/
+https://medium.com/@ravipatel.it/understanding-delegates-in-c-with-practical-examples-fdb253740ad7
+https://www.programiz.com/csharp-programming/reflection 
+week 4-
+Design Pattern – 
+•  DRY → Reduce code duplication using functions, classes, and reusable components.
+•  KISS → Keep the code simple and readable to improve maintainability.
+https://docs.google.com/document/d/1UWewhARyScdgFv0nyYCXYSsZAIcmGQXQHhARH6YOCBQ/edit?tab=t.0
+https://blog.stackademic.com/understanding-solid-principles-in-c-with-real-world-examples-a926b1c56571 
+File Io - https://www.guru99.com/c-sharp-file-operations.html
+File IO: https://www.youtube.com/watch?v=HKqMqFJr4SY
+Gargabe collector -https://dotnettutorials.net/lesson/garbage-collector/
+Dispose – and finalize - https://www.csharp.com/article/dispose-and-finalize-methods-in-c-sharp/
+How to add libraries and packages – from Mnage Nutget Packages 
+Library like csvHelper and newtonsoft  –  extentions 
+Synchronous and asynchronous programming  and serialize and deserilize
+
+Csv and Json - https://code-maze.com/csharp-write-json-into-a-file/ 
+Installation vedio - https://www.youtube.com/watch?v=FFp5BLoQLAA&t=2s
+1)Microsoft Sql server 2022
+2)ssms -sql server management studio 20.2
+ADO.NET-
+https://www.csharp.com/UploadFile/18fc30/understanding-the-basics-of-ado-net/
+C# topics
+Oops Concepts
+https://dileepsreepathi.medium.com/oops-concepts-c-e3c094bbb8cb
+Constructor Concepts
+https://www.c-sharpcorner.com/article/constructor-vs-destructor-c-sharp/
+5/2/2025
+Naming convention
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+https://dotnettutorials.net/lesson/garbage-collector/
+week 2
+data structure
+ https://www.c-sharpcorner.com/article/linked-list-implementation-in-c-sharp/
+https://www.c-sharpcorner.com/article/implementation-of-stack-and-queue-using-linked-list/
+Data structures: https://www.youtube.com/watch?v=Q5CKMaPuU94 https://www.youtube.com/watch?v=IqQ7QpmiBJ0&t=985s https://www.youtube.com/watch?v=rKlWS9XX6rY https://www.youtube.com/watch?v=iJRx3vs1v54
+Generic:
+Swap two numbers using Generic
+compare two values of different data types using generic
+find maximum and  Minimum of 3 values of different data types using generics
+menu driven calculator using generic
+https://dotnettutorials.net/lesson/generics-csharp/
+Collection
+https://www.c-sharpcorner.com/UploadFile/736bf5/collection-in-C-Sharp/
+html - https://www.youtube.com/watch?v=BsDoLVMnmZs
+https://www.youtube.com/watch?v=DWk2mndNTHY&t=1371s
+logger - https://www.youtube.com/watch?v=xG8AOAzgcAw
+•	Lambda Expression and Linq
+a: input parameter or parameterlist
+=> lambda operator
+a/5: expression
+Priyanshu Singh A
+https://www.c-sharpcorner.com/UploadFile/bd6c67/lambda-expressions-in-C-Sharp/
+https://www.programiz.com/csharp-programming/lambda-expression
+https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/
+https://www.c-sharpcorner.com/article/linq-methods/
+
+week 3 
+Testing
+https://medium.com/@gabrielkerekes/unit-testing-in-c-basics-8493d936dbff
+https://www.csharp.com/article/unit-testing-with-ms-tests-in-c-sharp/ - for theory
+exceptions – local and global type exceptions types 
+https://www.tutorialsteacher.com/csharp/csharp-exception 
+https://www.csharp.com/article/custom-exceptions-in-c-sharp/
+local - will check condition and throw an exception called local exception
+
+Data Annotation , https://www.csharp.com/article/dataannotations-in-depth/
+https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/data-annotation-attributes-in-asp-dot-net-mvc
+
+Regular expression  https://www.geeksforgeeks.org/what-is-regular-expression-in-c-sharp/
+
+Refelction and delegets -https://dotnettutorials.net/lesson/reflection-in-csharp/
+https://medium.com/@ravipatel.it/understanding-delegates-in-c-with-practical-examples-fdb253740ad7
+https://www.programiz.com/csharp-programming/reflection 
+week 4-
+Design Pattern – 
+•  DRY → Reduce code duplication using functions, classes, and reusable components.
+•  KISS → Keep the code simple and readable to improve maintainability.
+https://docs.google.com/document/d/1UWewhARyScdgFv0nyYCXYSsZAIcmGQXQHhARH6YOCBQ/edit?tab=t.0
+https://blog.stackademic.com/understanding-solid-principles-in-c-with-real-world-examples-a926b1c56571 
+File Io - https://www.guru99.com/c-sharp-file-operations.html
+File IO: https://www.youtube.com/watch?v=HKqMqFJr4SY
+Gargabe collector -https://dotnettutorials.net/lesson/garbage-collector/
+Dispose – and finalize - https://www.csharp.com/article/dispose-and-finalize-methods-in-c-sharp/
+How to add libraries and packages – from Mnage Nutget Packages 
+Library like csvHelper and newtonsoft  –  extentions 
+Synchronous and asynchronous programming  and serialize and deserilize
+
+Csv and Json - https://code-maze.com/csharp-write-json-into-a-file/ 
+Installation vedio - https://www.youtube.com/watch?v=FFp5BLoQLAA&t=2s
+1)Microsoft Sql server 2022
+2)ssms -sql server management studio 20.2
+ADO.NET-
+https://www.csharp.com/UploadFile/18fc30/understanding-the-basics-of-ado-net/
